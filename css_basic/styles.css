@@ -1,4 +1,5 @@
 body {
+    color: rgb(251, 121, 143);
     display: flex;
     flex-direction: column;
 }
@@ -15,3 +16,13 @@ aside {
     flex: 1;
     overflow-y: auto;
 }
+a {
+    color: rgb(234, 28, 62);
+}
+a:visited {
+    color: rebeccapurple;
+}
+a:hover {
+    color: rgb(246, 95, 120);
+}
+
