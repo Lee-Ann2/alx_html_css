@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box {
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+nav {
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 90px;
+    margin-left: 167px;
+
+}
+.nav-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+li {
+    list-style: none;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 15px;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.banner {
+    position: relative;
+    margin-top: 245px;
+    margin-left: 255px;
+}
+.get-schooled {
+    position: relative;
+    font-size: 120px;
+}
+h1 {
+    font-family: source code pro;
+    font-size: 120px;
+    font-weight: bolder;
+    color: #ffffff;
+}
+.word {
+    margin-top: 30px;
+    margin-left: 290px;
+    word-spacing: 45px;
+}
+span {
+    position: relative;
+    font-family: roboto;
+    font-size: medium;
+    font-weight: bold;
+    color: #ffffff;
+}
+.one {
+    margin-top: 50px;
+    margin-left: 335px;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    color: #ffffff;
+    background-color: #c271ff;
+}
+.learn {
+    position: absolute;
+    margin-top: -150px;
+    margin-right: 100px;
+}
+h2 {
+    margin-top: 220px;
+    margin-left: 545px;
+    font-family: roboto;
+    font-size: 38px;
+    font-weight: lighter;
+    color: #ffffff;
+}
+.heading {
+    color: #c271ff;
+    font-size: 38px;
+}
+.winner {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.winners-1, .winners-2, .winners-3, .winners-4 {
+    flex-basis: calc(25% - 0px);
+    margin-top: 150px;
+    transform: scale(0.7);
+    color: #ffffff;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    min-height: 300px;
+    background-color: #c271ff;
+    color: #ffffff;
+}
+.presenter {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    font-family: source code pro;
+    color: #ffffff;
+    justify-items: center;
+}
+.image {
+    flex: 1;
+    margin: 70px 0px 0px 270px;
+}
+.quote {
+    flex: 4;
+    margin: 95px 55px 0px 0px;
+}
+h3{
+    margin-top: 20px;
+}
+.para {
+    font-style: italic;
+    margin-top: 10px;
+}
+.name {
+    display: inline-block;
+    margin: 60px 0px 0px 465px;
+    font-family: roboto;
+    color: #000000;
+    align-items: center;
+}
+.pop {
+    font-family: roboto;
+    font-size: 40px;
+    color: #c271ff;
+}
+.video {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 450px;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+.smile-vid {
+    flex-basis: calc(25% - 10px);
+    margin: 20px;
+    transform: scale(0.8);
+}
+.smile-type {
+    margin-top: 10px;
+    margin-left: 5px;
+    font-family: source code pro;
+    font-style: bold;
+}
+.play {
+    position: relative;
+    margin-top: 80px;
+    right: 190px;
+}
+.sentence {
+    margin-top: 10px;
+    margin-left: 5px;
+    font-family: source code pro;
+    font-size: 14px;
+}
+.him img {
+    margin-top: 15px;
+    max-width: 30px;
+    max-height: 30px;
+}
+.phillip {
+    margin-top: -26px;
+    margin-left: 45px;
+    color: #c271ff;
+}
+.stars {
+    color: #c271ff;
+    margin-top: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.time {
+    margin-top: -20px;
+    margin-left: 210px;
+    color: #c271ff;
+}
+.membership {
+    margin-top: -120px;
+    background-color: #071629;
+    height: 100vh;
+}
+/*.subscription {
+    margin-top: 0px;
+}*/
+.free2 { 
+    font-size: 32px;
+    color: #ffffff;
+}
+.free {
+    font-family: source code pro;
+    font-size: 32px;
+    color: #c271ff;
+}
+.membership-info {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 150px;
+}
+.faces img {
+    margin-top: 30px;
+    margin-left: 150px;
+    transform: scale(0.8);
+}
+.letters {
+    color: #ffffff;
+    font-family: source code pro;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 5px;
+    transform: scale(0.8);
+}
+.another {
+    font-family: source code pro;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.regi-btn {
+    margin-top: 150px;
+    margin-left: 560px;
+    background-color: #c271ff;
+    font-size: 14px;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+}
+.faq-section {
+    color: #000000;
+    font-family: source code pro;
+    margin-top: 20px;
+    margin-left: 600px;
+}
+.faq-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row-block {
+    flex: 2;
+    margin-left: 15px;
+    transform: scale(0.7);
+    font-family: source code pro;
+    font-size: 16px;
+    font-weight: bold;
+}
+.faq-para {
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: lighter;
+}
+.footer {
+    background-color: #071629;
+    height: 200px
+}
+.footer-block {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    margin-top: 80px;
+    margin-left: 50px;
+    transform: scale(0.7);
+}
+.icons {
+    transform: scale(1.2);
+    margin-top: 80px;
+    margin-right: 80px;
+}
+.copyright {
+    color: #ffffff;
+    transform: scale(0.7);
+    margin-top: 50px;
+    margin-left: 500px;
+}
