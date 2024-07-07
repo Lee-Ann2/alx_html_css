@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.hero-piece {
+    background-image: url(Object.png);
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+.navmenu {
+    display: flex;
+    margin-right: 80px;
+    margin-left: 160px;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+/*Why the fuck is it not floating right. I should folat right tf.*/
+li{
+    list-style: none;
+    display: inline;
+}
+li a {
+    color: #ffffff;
+    margin-right: 50px;
+    text-decoration: none;
+}
+a:hover {
+    color: #ff6565;
+}
+h1 {
+    color: transparent;
+    -webkit-text-stroke: 2px #fff;
+    position: relative;
+}
+h1::before {
+    content: "Lorem ipsum dolor set amet lorem ipsum";
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    overflow: hidden;
+    color: #ff6565;
+    border: 2px solid #ff6565;
+    transition: 1s ease-in-out;
+}
+h1:hover::before {
+    width: 100%;
+    filter: drop-shadow(0 0 250px #ff6565);
+}
+
+/*.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 800px;
+    width: 250px;
+    z-index: 999;
+    box-shadow: -10px 0 10px rgba(0, 0,  0, 0.1);
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}*/
+.text {
+    display: relative;
+    margin: 150px;
+    padding: 150px;
+    color: #ffffff;
+    text-align: center;
+}
+.box-container {
+    margin-top: 50px;
+}
+.btn {
+    position: relative;
+    width: 162px;
+    height: 44px;
+    border: none;
+    border-radius: 22px;
+    background-color: #ff6565;
+    color: #ffffff;
+    font-size: 14px;
+    transition: .5s;
+    overflow: hidden;
+}
+button:hover {
+    color: #ffffff;
+    box-shadow: 0 0 5px #ff6565,
+                0 0 25px #ff6565,
+                0 0 30px #ff6565,
+                0 0 200px #ff6565;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);            
+    opacity: calc(0.9);
+}
+.lorem {
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 26px;
+    text-align: center;
+} 
+.whatwedo {
+    margin: 50px;
+    padding: 50px;
+}
+.boxcontainer2 {
+    position: relative;
+    margin: 10px;
+    padding: 50px;
+    text-align: center;
+}
+.what-we-do {
+    color: black;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+.lorem2 {
+    margin: 20px;
+    margin-left: 185px;
+    padding: 20px;
+    width: 637px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 26px;
+    transform: scale(0.9);
+    
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 20px;
+    align-items: center;
+    justify-content: space-between;
+    transform: scale(0.8);
+}
+.text2 {
+    position: relative;
+    margin-left: 95px;
+    cursor: pointer;
+}
+.text2:hover {
+    animation: bounce 1.5s ease-in-out infinite;
+}
+@keyframes bounce {
+    0%,
+    20%,
+    60%,
+    100% {
+        transform: translateY(0);
+    }
+    40% {
+        transformY:(-30px);
+    }
+    80% {
+        transformY:(-20px);
+    }
+}
+.icons2 {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 26px;
+}
+h4 {
+    color: #071629;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.text3 {
+    color: #071629;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 26px;
+    transform: scale(0.7);
+}
+.our-results {
+    background-image: url(1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1400px;
+    max-height: 800px;
+}
+.results {
+    margin: 80px;
+    padding: 100px;
+    text-align: center;
+}
+.the-results {
+    color: #ffffff;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.text4 {
+    margin-top: 20px;
+    padding: 30px;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 26px;
+    transform: scale(0.8);
+}
+.statistics {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: -200px;
+    align-items: center;
+    justify-content: space-between;
+    transform: scale(0.8);
+}
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    align-items: center;
+}
+.contact {
+    color: #071629;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.boxcontainer3 {
+    margin-top: 50px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transform: scale(1.2);
+}
+input {
+    margin: 10px;
+    margin-left: -5px;
+    border: none;
+    border-bottom: 2px solid #979797;
+}
+textarea {
+    margin-left: -5px;
+    border: none;
+    border-bottom: 2px solid #979797;
+}
+.contact-btn {
+    margin: 50px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+}
+.con-btn {
+    margin-left: -20px;
+    background-color: #ff6565;
+    width: 162px;
+    height: 44px;
+    border: none;
+    border-radius: 22px;
+}
+.footer {
+    max-height: 249;
+    background-color: #071629;
+}
+.footer2 {
+    display: flex;
+    margin-top: 50px;
+    padding: 20px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.social, i {
+    padding-right: 20px;
+    display: flex;
+    color: #ffffff;
+    justify-content: space-between;
+}
+.copy {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
